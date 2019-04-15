@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="loginController.jsp"  method="post">
+<fieldset>
+<legend>LOGIN CREDENTIALS </legend>
+<Label>UserId : </Label> <br><input type="text"    name="email"  placeholder="Enter the registered  email"  required="required"><br>
+<Label>Password : </Label> <br><input type="password"   name="password"   placeholder="Enter your password"  required="required"><br>
+<br>
+<label>Select Admin or User </label>
+<select name="emptype">
+    <option value="A">Admin</option>
+    <option value="U">User</option>
+  
+  </select>
+<input type="submit"  value="Login">
+
+</fieldset>
+
+
+
+</form>
+
+</body>
+</html>
